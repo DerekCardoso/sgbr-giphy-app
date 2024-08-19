@@ -4,10 +4,10 @@
       <q-toolbar>
         <q-btn flat round icon="menu" @click="toggleLeftDrawer"></q-btn>
         <q-toolbar-title class="q-mx-md">
-          <img src="https://via.placeholder.com/40" alt="Logo" class="logo h-8" />
+          <img src="../assets/logo.png" alt="Logo" class="logo h-20" />
         </q-toolbar-title>
         <div class="q-gutter-md flex items-center ml-auto">
-          <div class="text-h6 q-mr-md">NOME DESENVOLVEDOR</div>
+          <div class="text-h6 q-mr-md">NOME PROGRAMADOR</div>
           <q-avatar>
             <img src="https://via.placeholder.com/40" alt="Profile Picture" />
           </q-avatar>
