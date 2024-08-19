@@ -1,17 +1,18 @@
+import HomePage from 'pages/HomePage.vue'
+import FavoritosPage from 'pages/FavoritosPage.vue'
+import CategoriasPage from 'pages/CategoriasPage.vue'
+import SobrePage from 'pages/SobrePage.vue'
+
 const routes = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
+      { path: '', component: HomePage },
+      { path: 'favoritos', component: FavoritosPage },
+      { path: 'categorias', component: CategoriasPage },
+      { path: 'sobre', component: SobrePage },
     ]
-  },
-
-  // Always leave this as last one,
-  // but you can also remove it
-  {
-    path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue')
   }
 ]
 
