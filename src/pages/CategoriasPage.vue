@@ -56,14 +56,12 @@ onMounted(async () => {
 <style scoped>
 .page-container {
   background-color: #f0f0f0;
-  /* Fundo cinza */
   padding: 20px;
   min-height: 100vh;
 }
 
 .page-title {
   color: #525659;
-  /* Título preto */
   font-size: 25px;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -71,7 +69,6 @@ onMounted(async () => {
 
 .q-card {
   width: 100%;
-  /* Certifique-se de que o card ocupa toda a largura disponível */
 }
 
 .gif-item {
@@ -82,11 +79,8 @@ onMounted(async () => {
 
 .gif-image {
   width: 100%;
-  /* Ajusta a largura da imagem ao tamanho do container */
   height: 200px;
-  /* Define uma altura fixa para a imagem */
   object-fit: cover;
-  /* Mantém a proporção da imagem e cobre o container */
 }
 
 .page-grid {

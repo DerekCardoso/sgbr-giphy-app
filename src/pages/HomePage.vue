@@ -68,7 +68,6 @@ onMounted(fetchGifs)
   max-width: 100%;
   height: auto;
   width: 100%;
-  /* Ajusta a largura da imagem ao tamanho do container */
   height: 200px;
   object-fit: cover;
 }
