@@ -1,4 +1,4 @@
-# My GIPHY App
+# Giphy App
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Vue.js](https://img.shields.io/badge/vue.js-3.x-brightgreen.svg)
