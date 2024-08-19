@@ -11,20 +11,17 @@
 </template>
 
 <script setup>
-// Código do script aqui
 </script>
 
 <style scoped>
 .page-container {
     background-color: #f0f0f0;
-    /* Fundo cinza */
     padding: 20px;
     min-height: 100vh;
 }
 
 .page-title {
     color: #525659;
-    /* Título preto */
     font-size: 25px;
     margin-bottom: 20px;
     margin-left: 20px;

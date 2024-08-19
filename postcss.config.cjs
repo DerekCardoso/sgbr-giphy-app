@@ -3,10 +3,8 @@
 
 module.exports = {
   plugins: [
-    // Tailwind CSS
     require("tailwindcss")("./tailwind.config.js"),
 
-    // Autoprefixer
     require("autoprefixer")({
       overrideBrowserslist: [
         "last 4 Chrome versions",
